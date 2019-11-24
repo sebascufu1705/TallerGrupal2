@@ -76,11 +76,10 @@ header nav{
   
 }
 
-#fondo img{
+#fondo div a img{
     width: 25%;
 
-    align-items: center;
-    justify-content: center;
+  
   
 
 
