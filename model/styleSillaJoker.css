@@ -1,0 +1,103 @@
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+   align-items: baseline;
+    
+}
+.logo {
+    width: 10%;
+    height:10%;
+   
+}
+#banner {
+
+    width: 20%;
+    height:24%
+}
+
+#banner2{
+   
+    width: 100%;
+    height:100%;
+
+}
+#banner3{
+    height: 5%;
+    width: 70%;
+ }
+
+ #Parte_Arriba{
+
+    width: 100%;
+    height:100%;
+
+}
+
+.abajo{
+    width: 100%;
+    height: 100%;
+    margin-top: 0%;
+}
+header nav {
+    position: absolute;
+    margin-top: 5.5%;;
+   margin-left: 40%;
+}
+
+    header nav ul{
+      
+        font-family: Raleway ;
+        display: flex;
+        flex-direction: row;
+      
+      font-size: 80%;
+    }
+        header nav ul li{
+           margin-left: 20%;
+            list-style:none;
+        }
+
+#fondo{
+   
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: left;
+  
+}
+
+#fondoImagen{
+    margin-left: 5%;
+    width: 30%;
+    height: 70%;
+    
+}
+.bloqueDeTexto{
+    margin-top: -2%;
+    font-size: 100%;
+    font-family: Raleway;
+    position: absolute;
+    margin-left: 36%;
+}
+
+
+#textoReserva{
+    font-family: Raleway ;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        padding: 10%;
+}
+#Reservas{
+    width: 30%;
+    height: 70%;
+    
+}
