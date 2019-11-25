@@ -64,6 +64,7 @@ header nav {
         }
 
 #fondo{
+    background-color: rgba(206, 108, 50, 0.5);
    
     display: flex;
     width: 100%;
@@ -100,4 +101,11 @@ header nav {
     width: 30%;
     height: 70%;
     
+}
+
+#sketch-holder{
+    position: absolute;
+    translate: (350px);
+   
+   
 }
