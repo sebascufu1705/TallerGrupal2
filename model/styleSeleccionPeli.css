@@ -1,41 +1,36 @@
-style
 body{
     width: 100%;
     height: 100vh;
 }
 
-header,main,footer{
-    width: 100%;
-    position: relative;
-}
+
 header{
     display: flex;
     flex-direction: row;
+   align-items: baseline;
+    
 }
 .logo {
     width: 10%;
     height:10%;
-    margin-top: 5%;
+   
 }
 #banner {
-    margin-top: 7%;
+
     width: 20%;
     height:24%
 }
 
 #banner2{
-    margin-top: 7%;
-    width: 95%;
+   
+    width: 100%;
     height:100%;
 
 }
-
-
 #banner3{
-    margin: 0 auto;
-   
-   width: 200%;
-}
+    height: 5%;
+    width: 70%;
+ }
 
 
 .abajo{
@@ -88,12 +83,6 @@ header nav{
 }
 
 
-#banner3{
-    margin-top: -3%;
-    width: 80%;
-    height: 60%;
-    margin-block-end: -2%
-}
 #textoReserva{
     font-family: Raleway ;
         display: flex;
